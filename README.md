@@ -14,8 +14,11 @@ You need to run `npm run crawler` and thats it, the other instructions will appe
 
 ## How to use the bot
 *Attention: the bot phrases are in portuguese.*
+
 **First thing you need to** configure your bot token from Telegram in the file `./bot.js` line 25.
+
 **Second thing is** run `npm run bot`. You will need some games to show in the bot, the commands are all in private mode and show only today and tomorrow games.
+
 
 **Bot commands:**
  - `/comandos` show all commands and examples how to use them (`comandos` means `commands`).
