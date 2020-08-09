@@ -1,0 +1,25 @@
+{
+  "name": "pantherbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "crawler": "node crawler.js",
+    "bot": "node bot.js",
+    "botdev": "nodemon bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "require-dir": "^1.2.0",
+    "prompt-sync": "^4.2.0",
+    "sqlite3": "^5.0.0",
+    "telegraf": "^3.38.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "moment-timezone": "^0.5.31"
+  }
+}
